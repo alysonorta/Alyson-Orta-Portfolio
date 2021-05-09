@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    font-family: "Veranda", "Arial", sans-serif;
+}
+#topNav {
+    display: flex;
+    list-style-type: none;
+    background-color: #d1f2eb;
+    height: 100px;
+    width: 92%;
+    margin: auto;
+    border-bottom: 20px solid white;
+}
+/* #navBar {
+
+    display: flex;
+    list-style-type: none;    
+    border-top: 12px solid #d1f2eb;
+} */
+
+li {
+    color: white;
+    background-color: #48c9b0;
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    border: 5px solid #d1f2eb;
+}
+
+
+#header {
+    display:flex;
+    flex-direction: column;
+    background-color: #f1948a;
+    height: auto;
+    width: 92%;
+    margin: auto;
+    border-bottom: 20px solid white;
+
+}
+
+#myName {
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: white;
+    padding: 0;
+}
+
+#subheader {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 15px;
+    color: white;
+}
+
+#about {
+    display: flex;
+    justify-content: normal;
+    align-content: normal;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #fadbd8;
+    height: auto;
+    width: 92%;
+    margin: auto;
+    text-align: center;
+    color: #E74C3C;
+    border-bottom: 20px solid white;
+}
+
+#alysonpic {
+    flex-basis: auto;
+    border: 5px solid #f9ebea;
+    width: 300px;
+    height: 300px;
+    margin-left: 75px;
+}
+
+#aboutPar {
+    border-right: 75px solid #fadbd8;
+    background-color:#f9ebea;
+    text-align: justify;
+    height: 200px;
+    width: 400px;
+    float: right;
+    margin: auto;
+
+}
+
+#portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: #fad7a0;
+    height: auto;
+    width: 92%;
+    margin: auto;
+    border-bottom: 20px solid white;
+}
+
+#brookspic {
+    flex-grow: 1.5;
+    border: 5px solid #f9ebea;
+    /* width: 300px;
+    height: 300px; */
+    display: inline;     
+}
+
+#donutllama {
+    flex-grow: 1;
+    border: 5px solid #f9ebea;
+    width: 300px;
+    height: 300px;
+    display: inline;
+}
+
+#contact {
+    display: flex;
+    background-color: #aed6f1;
+    height: 100px;
+    width: 92%;
+    margin: auto;
+    border-bottom: 20px solid white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #topNav,
+    #header,
+    #about,
+    #portfolio,
+    #contact {
+        width: 80%;
+        align-items: center;
+    }
+    #topNav {
+        width: 80%;        
+    }
+    li {
+        height: 45px;
+        width: 130px;
+        font-size: 16px;
+    }
+
+    #myName {
+        font-size: 55px;
+    }
+    #subheader {
+        font-size: 30px;
+    }
+    #alysonpic {
+        height:50%;
+        width: 50%;
+    }
+
+    #brookspic {
+        width: 80%;
+    }
+    #donutllama {
+        width: 80%;
+        height: 80%;
+    }
+
+  }
+
+  @media screen and (max-width: 480px) {
+    #topNav,
+    #header,
+    #about,
+    #portfolio,
+    #contact {
+        width: 90%;
+    }
+    li {
+        flex-wrap: wrap;
+        height: 40px;
+        width: 75px;
+        font-size:16px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    #myName {
+        font-size: 30px;
+    }
+    #subheader {
+        font-size: 20px;
+    }
+    #alysonpic {
+        height:50%;
+        width: 50%;
+    }
+    #aboutPar {
+        font-size: 10px;
+    }
+
+    #brookspic {
+        width: 80%;
+    }
+    #donutllama {
+        width: 80%;
+        height: 80%;
+    }
+  }
