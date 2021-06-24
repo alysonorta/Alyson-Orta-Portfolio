@@ -13,12 +13,7 @@ main {
     margin: auto;
     border-bottom: 20px solid white;
 }
-/* #navBar {
 
-    display: flex;
-    list-style-type: none;    
-    border-top: 12px solid #d1f2eb;
-} */
 
 li {
     color: white;
