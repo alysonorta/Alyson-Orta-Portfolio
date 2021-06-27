@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Alyson Orta Portfolio</title>
@@ -13,15 +16,13 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> -->
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav" id="topNav">
                     <a class="nav-link" href="#about">About</a>
                     <a class="nav-link" href="#portfolio">Portfolio</a>
                     <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="https://github.com/alysonorta" target="_blank">GitHub</a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/alyson-orta-0698aba7/" target="_blank">LinkedIn</a>
                     <a class="nav-link" href = "file:///C:/Users/John/Desktop/Bootcamp/Homework2/Homework-2-Portfolio/Alyson%20Orta%20Resume%202_13_20.pdf" target = "_blank">Resume</a>
                 </div>
             </div>
@@ -33,12 +34,11 @@
     <div class="card mb-3" id="aboutAlyson" style="max-width: 650px;">
       <div class="row g-0">
         <div class="col-md-6">
-          <img src="Mama - PALE2.jpg" class="img-fluid rounded-start" alt="Photo of Alyson Orta">
+          <img src="Mama - PALE2.jpg" class="img-fluid rounded-start" alt="Photo of Alyson Orta" id="alysonpic">
         </div>
         <div class="col-md-6">
           <div class="card-body">
-            <h5 class="card-title">Hi there! I'm Alyson Orta!</h5>
-            <p class="card-text">My name is Alyson and I am currently attending the Full Stack Web Development Bootcamp at The Ohio State University. Web development marries the logical and creative parts of my brain. I truly enjoy seeing how the raw lines of code work together to become a beautiful, functional webpage or application.</p>
+            <p class="card-text">Hi there! I'm Alyson Orta! I am currently attending the Full Stack Web Development Bootcamp at The Ohio State University. Web development marries the logical and creative parts of my brain. I truly enjoy seeing how the raw lines of code work together to become a beautiful, functional webpage or application.</p>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
     <section id = "portfolio">
         <div class="card-group">
             <div class="card">
-              <img src="B&D-Fanpage.jpg" class="card-img-top" alt="Image screenshot of Brooks & Dunn fanpage created by Alyson Orta.">
+              <img src="B&D-Fanpage.jpg" class="card-img-top" id="brookspic" alt="Image screenshot of Brooks & Dunn fanpage created by Alyson Orta.">
               <div class="card-body">
                 <h5 class="card-title">Brooks & Dunn Fan Page</h5>
                 <p class="card-text">Love 90's country music? Yep, I thought so! Click the link below to check out one of my favorite bands, Brooks & Dunn!</p>
@@ -81,11 +81,12 @@
     </section>
 
     <!-- Contact -->
-    <section id = "contact">
-        <h2>Let's Chat!</h2>
-
-        <p>Please e-mail alyson.orta@gmail.com</p>
-
+    <section>
+      <div class="card">
+        <div class="card-body" id="contact">
+          Let's Chat! E-mail me at alyson.orta@gmail.com
+        </div>
+      </div>
     </section>
    
     

@@ -1,74 +1,28 @@
-* {
-    box-sizing: border-box;
-}
 main {
-    font-family: "Veranda", "Arial", sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 #topNav {
     display: flex;
+    font-size: 35px;
     list-style-type: none;
     background-color: #d1f2eb;
     height: 100px;
     width: 92%;
     margin: auto;
-    border-bottom: 20px solid white;
 }
 
 
-li {
-    color: white;
-    background-color: #48c9b0;
-    display: inline-block;
-    height: 60px;
-    width: 200px;
-    padding: 15px 32px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    border: 5px solid #d1f2eb;
-}
-
-
-#header {
-    display:flex;
-    flex-direction: column;
-    background-color: #f1948a;
-    height: auto;
-    width: 92%;
-    margin: auto;
-    border-bottom: 20px solid white;
-
-}
-
-#myName {
-    text-align: center;
-    font-size: 75px;
-    margin-bottom: 0;
-    margin-top: 0;
-    color: white;
-    padding: 0;
-}
-
-#subheader {
-    text-align: center;
-    font-size: 55px;
-    margin-top: 15px;
-    color: white;
-}
-
-#about {
+#aboutAlyson {
     display: flex;
+    font-size: 24px;
     justify-content: normal;
     align-content: normal;
     flex-wrap: wrap;
     align-content: center;
     background-color: #fadbd8;
-    height: auto;
-    width: 92%;
     margin: auto;
     text-align: center;
     color: #E74C3C;
-    border-bottom: 20px solid white;
 }
 
 #alysonpic {
@@ -76,49 +30,26 @@ li {
     border: 5px solid #f9ebea;
     width: 300px;
     height: 300px;
-    margin-left: 75px;
-}
-
-#aboutPar {
-    border-right: 75px solid #fadbd8;
-    background-color:#f9ebea;
-    text-align: justify;
-    height: 200px;
-    width: 400px;
-    float: right;
-    margin: auto;
-
+    margin-top: 25px;
 }
 
 #portfolio {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
-    background-color: #fad7a0;
     height: auto;
     width: 92%;
     margin: auto;
     border-bottom: 20px solid white;
 }
 
-#brookspic {
-    flex-grow: 1.5;
-    border: 5px solid #f9ebea;
-    /* width: 300px;
-    height: 300px; */
-    display: inline;     
-}
-
-#donutllama {
-    flex-grow: 1;
-    border: 5px solid #f9ebea;
-    width: 300px;
-    height: 300px;
-    display: inline;
+.card-group {
+    background-color: #d1f2eb;
 }
 
 #contact {
     display: flex;
+    font-size: 35px;
     background-color: #aed6f1;
     height: 100px;
     width: 92%;
